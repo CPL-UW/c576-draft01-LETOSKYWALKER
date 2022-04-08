@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 3325852093494856077}
   - component: {fileID: 3394759206115084919}
   - component: {fileID: -6649332349997517752}
+  - component: {fileID: 9145151922224888507}
   m_Layer: 6
   m_Name: Card2
   m_TagString: Untagged
@@ -184,7 +185,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e84e1610be04083bb0ab81c4f82323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
   Canvas: {fileID: 0}
+  PlayerManager: {fileID: 0}
 --- !u!61 &-2285907514625426451
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -296,3 +300,15 @@ MonoBehaviour:
   showGizmos: 0
   showOverlay: 0
   overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+--- !u!114 &9145151922224888507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869617536652370277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35aac932d8867984585e67d07210cbd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

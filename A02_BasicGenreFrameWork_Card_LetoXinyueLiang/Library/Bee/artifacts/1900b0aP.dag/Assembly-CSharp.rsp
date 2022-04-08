@@ -345,6 +345,8 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/where-allocations.ref.dll"
+"Assets/CardFlip.cs"
+"Assets/Scripts/CardFlipper.cs"
 "Assets/Scripts/CardZoom.cs"
 "Assets/Scripts/DragDrop.cs"
 "Assets/Scripts/DrawCards.cs"
