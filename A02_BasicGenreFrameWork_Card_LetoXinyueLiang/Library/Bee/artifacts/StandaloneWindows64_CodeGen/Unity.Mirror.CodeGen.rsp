@@ -146,7 +146,7 @@
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll"
 -r:"Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll"
--r:"D:/GAME_DESIGN/CURRIC 576/asgn-02-very-dumb-prototype-LETOSKYWALKER/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"D:/GAME_DESIGN/CURRIC 576/MyProj/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"D:/UNITY/2021.2.12f1/Editor/Data/Managed/Unity.CompilationPipeline.Common.dll"
 -r:"D:/UNITY/2021.2.12f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/UNITY/2021.2.12f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"

@@ -150,11 +150,11 @@
 -r:"Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll"
 -r:"Assets/Mirror/Tests/Common/Castle.Core.dll"
 -r:"Assets/Mirror/Tests/Common/NSubstitute.dll"
--r:"D:/GAME_DESIGN/CURRIC 576/asgn-02-very-dumb-prototype-LETOSKYWALKER/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"D:/GAME_DESIGN/CURRIC 576/asgn-02-very-dumb-prototype-LETOSKYWALKER/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
--r:"D:/GAME_DESIGN/CURRIC 576/asgn-02-very-dumb-prototype-LETOSKYWALKER/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"D:/GAME_DESIGN/CURRIC 576/asgn-02-very-dumb-prototype-LETOSKYWALKER/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"D:/GAME_DESIGN/CURRIC 576/asgn-02-very-dumb-prototype-LETOSKYWALKER/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.Unsafe.dll"
+-r:"D:/GAME_DESIGN/CURRIC 576/MyProj/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"D:/GAME_DESIGN/CURRIC 576/MyProj/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"D:/GAME_DESIGN/CURRIC 576/MyProj/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"D:/GAME_DESIGN/CURRIC 576/MyProj/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"D:/GAME_DESIGN/CURRIC 576/MyProj/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.Unsafe.dll"
 -r:"D:/UNITY/2021.2.12f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/UNITY/2021.2.12f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/UNITY/2021.2.12f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -403,6 +403,7 @@
 "Assets/Scripts/CardZoom.cs"
 "Assets/Scripts/DragDrop.cs"
 "Assets/Scripts/DrawCards.cs"
+"Assets/Scripts/PlayerManager.cs"
 -langversion:9.0
 
 /deterministic

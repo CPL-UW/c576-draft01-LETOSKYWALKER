@@ -133,11 +133,11 @@
 -define:MIRROR_65_0_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"D:/GAME_DESIGN/CURRIC 576/asgn-02-very-dumb-prototype-LETOSKYWALKER/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"D:/GAME_DESIGN/CURRIC 576/asgn-02-very-dumb-prototype-LETOSKYWALKER/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
--r:"D:/GAME_DESIGN/CURRIC 576/asgn-02-very-dumb-prototype-LETOSKYWALKER/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"D:/GAME_DESIGN/CURRIC 576/asgn-02-very-dumb-prototype-LETOSKYWALKER/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"D:/GAME_DESIGN/CURRIC 576/asgn-02-very-dumb-prototype-LETOSKYWALKER/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.Unsafe.dll"
+-r:"D:/GAME_DESIGN/CURRIC 576/MyProj/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"D:/GAME_DESIGN/CURRIC 576/MyProj/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"D:/GAME_DESIGN/CURRIC 576/MyProj/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"D:/GAME_DESIGN/CURRIC 576/MyProj/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"D:/GAME_DESIGN/CURRIC 576/MyProj/A02_BasicGenreFrameWork_Card_LetoXinyueLiang/Library/PackageCache/com.unity.burst@1.6.4/Unity.Burst.Unsafe.dll"
 -r:"D:/UNITY/2021.2.12f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"D:/UNITY/2021.2.12f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"D:/UNITY/2021.2.12f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -348,6 +348,7 @@
 "Assets/Scripts/CardZoom.cs"
 "Assets/Scripts/DragDrop.cs"
 "Assets/Scripts/DrawCards.cs"
+"Assets/Scripts/PlayerManager.cs"
 -langversion:9.0
 
 /deterministic

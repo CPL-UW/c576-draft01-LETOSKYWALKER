@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - CardZoom
     - DragDrop
     - DrawCards
+    - PlayerManager
     Mirror.Components.dll:
     - Mirror.NetworkTransform
     Mirror.dll:
@@ -16,16 +17,13 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -88,35 +86,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1792}
     - Class: 114
-      Script: {instanceID: 2448}
+      Script: {instanceID: 2408}
     - Class: 114
-      Script: {instanceID: 2836}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 2902}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 3932}
+      Script: {instanceID: 2904}
     - Class: 114
-      Script: {instanceID: 4036}
+      Script: {instanceID: 3934}
     - Class: 114
-      Script: {instanceID: 4278}
+      Script: {instanceID: 4038}
     - Class: 114
-      Script: {instanceID: 4360}
+      Script: {instanceID: 4280}
     - Class: 114
-      Script: {instanceID: 4854}
+      Script: {instanceID: 4362}
     - Class: 114
-      Script: {instanceID: 5112}
+      Script: {instanceID: 4856}
     - Class: 114
-      Script: {instanceID: 5540}
+      Script: {instanceID: 5114}
     - Class: 114
-      Script: {instanceID: 5588}
+      Script: {instanceID: 5542}
     - Class: 114
-      Script: {instanceID: 5616}
+      Script: {instanceID: 5590}
     - Class: 114
-      Script: {instanceID: 5896}
+      Script: {instanceID: 5618}
     - Class: 114
-      Script: {instanceID: 6170}
+      Script: {instanceID: 5898}
     - Class: 114
-      Script: {instanceID: 6668}
+      Script: {instanceID: 6172}
+    - Class: 114
+      Script: {instanceID: 6670}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -284,6 +284,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.AdditiveLevels
     className: LookAtMainCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 3ad6382617c540dc3fbe58f63d4c1b7a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerManager
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -922,13 +928,13 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 13c2d45aacfcf960662f5901489ef7fd
+      Hash: ec0dd865a06b258fdadaaa60bcccb43f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DrawCards
   - hash:
       serializedVersion: 2
-      Hash: de00113d7819349bcbd6d33c48ea106b
+      Hash: 44de987ce84b12f89de57c770862dbb8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DragDrop
