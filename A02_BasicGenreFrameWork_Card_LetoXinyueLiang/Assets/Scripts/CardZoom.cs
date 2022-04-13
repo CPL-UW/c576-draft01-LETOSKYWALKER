@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using Mirror;
 
 public class CardZoom : MonoBehaviour
 {
     public GameObject Canvas;
+    public GameObject myPrefab;
     private GameObject zoomCard;
 
     public void Awake()
@@ -14,7 +16,7 @@ public class CardZoom : MonoBehaviour
 
     public void OnHoverEnter()
     {
-        zoomCard = Instantiate(gameObject, new Vector2(Input.mousePosition.x, Input.mousePosition.y + 125), Quaternion.identity);
+        zoomCard = Instantiate(myPrefab, new Vector2(Input.mousePosition.x - 324, Input.mousePosition.y + 25 -188), Quaternion.identity);
         zoomCard.transform.SetParent(Canvas.transform, false);
         zoomCard.layer = LayerMask.NameToLayer("Zoom");
         RectTransform rect = zoomCard.GetComponent<RectTransform>();

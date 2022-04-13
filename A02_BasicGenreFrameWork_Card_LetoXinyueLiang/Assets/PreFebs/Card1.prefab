@@ -249,6 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Canvas: {fileID: 0}
+  myPrefab: {fileID: 5219211332114279245, guid: 8283e00a60550944994d7e29351a2d5e, type: 3}
 --- !u!114 &-746078877734688110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,3 +313,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35aac932d8867984585e67d07210cbd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CardFront: {fileID: 0}
+  CardBcak: {fileID: 0}
